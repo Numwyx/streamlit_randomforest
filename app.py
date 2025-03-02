@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import shap
 
 st.set_page_config(    
-    page_title="Prognostic Evaluation of 7-Day Survival in Critical Traumatic Spinal Cord Injury Patients",
+    page_title="Risk Assessment of 7-Day Mortality in Critically Ill Patients with Traumatic Spinal Cord Injury",
     page_icon="⭕",
     layout="wide"
 )
