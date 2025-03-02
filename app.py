@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import shap
 
 st.set_page_config(    
-    page_title="Risk Assessment of 7-Day Mortality in Critically Ill Patients with Traumatic Spinal Cord Injury",
+    page_title="Prognostic Evaluation of 7-Day Survival in Critical Traumatic Spinal Cord Injury Patients",
     page_icon="⭕",
     layout="wide"
 )
@@ -73,7 +73,7 @@ with st.expander("**Predict result**", True):
     
     st.markdown(f'''
     <div style="font-size: 20px; text-align: center; color: red; background: transparent; border-radius: .5rem; margin-bottom: 1rem;">
-    The 7-day mortality risk for this critically ill spinal cord injury patient is: {round(d[1]*100, 2)}%
+    The 7-day survival rate for this critical spinal cord injury patient is: {round(d[1]*100, 2)}%
     </div>''', unsafe_allow_html=True)
 
 
